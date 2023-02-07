@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty Chrome Browser is Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[sonika]]>
+    </line>
+    <line>
+      <![CDATA[navigating to apparel and shoes page]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30226" started-at="2023-01-22T19:26:51 IST" finished-at="2023-01-22T19:27:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30226" started-at="2023-01-22T19:26:51 IST" finished-at="2023-01-22T19:27:21 IST">
+      <class name="DemoTestCase.DemoWebShop01">
+        <test-method status="PASS" signature="BrowserSetUp(java.lang.String)[pri:0, instance:DemoTestCase.DemoWebShop01@3043fe0e]" name="BrowserSetUp" is-config="true" duration-ms="24994" started-at="2023-01-22T19:26:51 IST" finished-at="2023-01-22T19:27:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserSetUp -->
+        <test-method status="PASS" signature="add()[pri:0, instance:DemoTestCase.DemoWebShop01@3043fe0e]" name="add" duration-ms="12" started-at="2023-01-22T19:27:16 IST" finished-at="2023-01-22T19:27:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[sonika]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="apperal_Shoes()[pri:0, instance:DemoTestCase.DemoWebShop01@3043fe0e]" name="apperal_Shoes" duration-ms="5136" started-at="2023-01-22T19:27:16 IST" finished-at="2023-01-22T19:27:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[navigating to apparel and shoes page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- apperal_Shoes -->
+      </class> <!-- DemoTestCase.DemoWebShop01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
